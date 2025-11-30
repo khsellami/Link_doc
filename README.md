@@ -87,7 +87,7 @@ AgencyHub is a Next.js 16 dashboard application for managing agency information 
 
 ### Authentication Flow
 
-\`\`\`
+```text
 ┌────────┐     ┌──────────┐     ┌───────────┐     ┌───────────┐
 │  User  │────▶│ Landing  │────▶│  Clerk    │────▶│ Dashboard │
 │        │     │  Page    │     │ Sign In   │     │  (Auth)   │
@@ -98,11 +98,11 @@ AgencyHub is a Next.js 16 dashboard application for managing agency information 
                                │ Middleware│
                                │ (Verify)  │
                                └───────────┘
-\`\`\`
+```
 
 ### Contact Viewing Flow with Daily Limit
 
-\`\`\`
+```text
 ┌────────┐     ┌──────────────┐     ┌───────────────┐     ┌──────────────┐
 │  User  │────▶│ Contacts     │────▶│ Check Daily   │────▶│ Show Table   │
 │  Click │     │ Page         │     │ Limit         │     │ (if allowed) │
@@ -114,11 +114,11 @@ AgencyHub is a Next.js 16 dashboard application for managing agency information 
                                     │ Show Upgrade  │
                                     │ Modal         │
                                     └───────────────┘
-\`\`\`
+```
 
 ## Component Structure
 
-\`\`\`
+```text
 app/
 ├── page.tsx                    # Landing page (public)
 ├── layout.tsx                  # Root layout with ClerkProvider
@@ -153,7 +153,7 @@ lib/
 └── utils.ts                    # Utility functions
 
 middleware.ts                   # Clerk auth middleware
-\`\`\`
+```
 
 ## Key Features Implementation
 
