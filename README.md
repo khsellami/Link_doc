@@ -4,9 +4,11 @@
 
 AgencyHub is a Next.js 16 dashboard application for managing agency information and employee contacts with user authentication and daily viewing limits.
 
+---
+
 ## System Architecture Diagram
 
-\`\`\`
+```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              CLIENT LAYER                                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
@@ -31,7 +33,6 @@ AgencyHub is a Next.js 16 dashboard application for managing agency information 
 │  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                │   │
 │  │  │  Dashboard   │  │   Agencies   │  │   Contacts   │                │   │
 │  │  │  (/dashboard)│  │  (/agencies) │  │  (/contacts) │                │   │
-│  │  │              │  │              │  │              │                │   │
 │  │  │  • Stats     │  │  • Data      │  │  • Data      │                │   │
 │  │  │  • Overview  │  │    Table     │  │    Table     │                │   │
 │  │  │  • Quick     │  │  • Search    │  │  • Search    │                │   │
@@ -80,7 +81,7 @@ AgencyHub is a Next.js 16 dashboard application for managing agency information 
 │  └───────────────────────────┘    └───────────────────────────┘            │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
-\`\`\`
+
 
 ## Data Flow Diagrams
 
