@@ -8,7 +8,7 @@ AgencyHub is a Next.js 16 dashboard application for managing agency information 
 
 ## System Architecture Diagram
 
-```text
+```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              CLIENT LAYER                                    │
 ├─────────────────────────────────────────────────────────────────────────────┤
