@@ -181,8 +181,8 @@ middleware.ts                   # Clerk auth middleware
 - Call-to-action button (no payment integration)
 
 ## Environment Variables Required
-
-\`\`\`env
+```text
+env: 
 # Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_...
 CLERK_SECRET_KEY=sk_...
@@ -190,7 +190,7 @@ NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
-\`\`\`
+```
 
 ## Security Considerations
 
